@@ -1,0 +1,36 @@
+@font-face {
+    font-family:  "Apfel Grotezk";
+    src: url(apfelgrotezk-regular.woff2);
+  }
+
+div.statement {
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+div.statement p {
+    margin: 64px 0 0 0;
+    text-indent: 80px;
+  }
+
+
+body {
+    font-family: Apfel Grotezk;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: ffffff;
+    color: #000000;
+    margin: 48px 240px 48px 48px;
+    max-width: 1140px;
+    transition: color 1s;
+}
+
+  a:link, a:visited {
+    background-color: #FF69B4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
